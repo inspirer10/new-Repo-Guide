@@ -69,7 +69,7 @@ h2 {
 }
 
 .center {
-    text-align: center;
+    text-align: center !important;
 }
 
 
@@ -105,5 +105,28 @@ button {
         color: white;
         background: black;
         border: 2px solid white;
+    }
+}
+
+@media (orientation: portrait) {
+
+    #newRepo,
+    #readMe,
+    #clone {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .creating p,
+    .cloning p {
+        text-align: justify;
     }
 }
