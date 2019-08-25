@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Nowe Repo na GitHub'ie</title>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <section class='creating'>
+            <a href='https://github.com/new' target="_blank" class='logo'><img src="https://genenetwork.nl/scrna-seq/img/github.png" alt="GitHub logo"></a>
+
+            <h1>Cześć!</h1>
+            <h2>Dzisiaj pokażę Ci szybki i przyjemny sposób na stworzenie repozytorium na GitHubie</h2>
+
+            <p>Pokażę Ci teraz sposób, który dodatkowo zadziała w sytuacji, kiedy dołączasz do toczącego się projektu.
+            Stosujemy go tylko w sytuacji, kiedy istnieje repozytorium zdalne, a nie istnieje lokalne na Twoim komputerze</p>
+
+            <p>Tym sposobem jest <span>klonowanie repozytorium.</span></p>
+
+            <p>Zacznij od stworzenia nowego repozytorium. Możesz do tego wykorzystać ikonę plusa, która znajduje się w prawym górnym rogu strony:</p>
+
+            <img src="img/newRepo.jpg" alt="creating new repo" id='newRepo'>
+
+            <p class='center readMe'>Przy zakładaniu repozytorium zaznacz opcję stworzenia pliku 'README.md':</p>
+
+            <img src="img/initialize.jpg" alt="adding README.md" id='readMe'>
+
+            <p class='center'>Dzięki temu automatycznie zostanie zapisany pierwszy commit.</p>
+
+        </section>
+
+        <section class='cloning'>
+
+            <p>Po stworzeniu repozytorium skopiuj adres repozytorium zdalnego, adres znajdziesz po prawej stronie nad listą plików, pod guzikiem "Clone or download":</p>
+
+            <img src="img/Cloning.jpg" id='clone' alt="cloning repo">
+
+            <p class='center'>Następnie otwórz terminal w katalogu ze swoimi projektami.</p>
+            <p class='center'>Wykonaj komendę <span>git clone adres-repozytorium</span> oczywiście zamieniając "adres-repozytorium" na adres skopiowany przed chwilą.</p>
+            <p class='center'>Po sklonowaniu repozytorium zostanie utworzony katalog o nazwie takiej samej jak nazwa repozytorium.</p>
+
+            <p class='center'>Następnie do katalogu dodaj plik "package.json", który możesz pobrać poniżej.</p>
+
+            <a href='json/package.json' download='package.json'>
+                <button>Pobierz plik</button>
+            </a>
+
+            <p class='center'>Otwórz terminal w katalogu projektu i uruchom komendy: ' npm run init-project ' , a następnie: ' npm run watch '</p>
+
+            <p class='center'>Teraz możesz już pracować ze swoim projektem :)</p>
+
+        </section>
+
+    </body>
+
+</html>
